@@ -1,12 +1,9 @@
 ---
-
 kanban-plugin: board
-
 ---
 
 ## Задачи
 
-- [ ] Созвон
 
 
 ## 1
@@ -17,6 +14,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false]}
+{"kanban-plugin":"table","list-collapse":[false,false]}
 ```
 %%
