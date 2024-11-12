@@ -1,6 +1,6 @@
 ---
 
-kanban-plugin: table
+kanban-plugin: board
 
 ---
 
@@ -12,10 +12,15 @@ kanban-plugin: table
 
 
 
+## Выполнено
+
+**Complete**
+
+
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"table","list-collapse":[false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false]}
 ```
 %%
