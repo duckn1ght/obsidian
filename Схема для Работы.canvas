@@ -14,7 +14,8 @@
 		{"id":"dc9207bce314f646","type":"text","text":"## Сравнение дат","x":220,"y":-500,"width":260,"height":60},
 		{"id":"beb31653cf17ce01","type":"text","text":"### Обновить цены в корзине","x":-280,"y":-780,"width":352,"height":60},
 		{"id":"5ec352148fdcf726","type":"text","text":"### Ничего","x":760,"y":-780,"width":250,"height":60},
-		{"id":"4f0a01f74395d10d","x":-980,"y":380,"width":220,"height":60,"type":"text","text":"Оформление заказа"}
+		{"id":"4f0a01f74395d10d","x":-980,"y":380,"width":220,"height":60,"type":"text","text":"Оформление заказа"},
+		{"id":"3422f4797701910d","x":-995,"y":553,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"4f074eb25550c9f8","fromNode":"e47e0ea6986c628c","fromSide":"left","toNode":"c77cb201f4b5ca99","toSide":"top","label":"Кешбэк не используется для оплаты"},
@@ -31,6 +32,7 @@
 		{"id":"8517a65ae92b2daf","fromNode":"dd1a743848c9da09","fromSide":"top","toNode":"dc9207bce314f646","toSide":"left"},
 		{"id":"976ffc16de47c417","fromNode":"e8cc37d3688c5629","fromSide":"top","toNode":"dc9207bce314f646","toSide":"right"},
 		{"id":"d423569e82b06e14","fromNode":"dc9207bce314f646","fromSide":"top","toNode":"5ec352148fdcf726","toSide":"bottom","label":"Обновление корзины позже товара"},
-		{"id":"f0ebd448c02c0348","fromNode":"dc9207bce314f646","fromSide":"top","toNode":"beb31653cf17ce01","toSide":"bottom","label":"Обновление товара позже коризны"}
+		{"id":"f0ebd448c02c0348","fromNode":"dc9207bce314f646","fromSide":"top","toNode":"beb31653cf17ce01","toSide":"bottom","label":"Обновление товара позже коризны"},
+		{"id":"a4cadc882f0df34d","fromNode":"4f0a01f74395d10d","fromSide":"bottom","toNode":"3422f4797701910d","toSide":"top"}
 	]
 }
