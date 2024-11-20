@@ -14,7 +14,7 @@
 		{"id":"dc9207bce314f646","type":"text","text":"## Сравнение дат","x":220,"y":-500,"width":260,"height":60},
 		{"id":"beb31653cf17ce01","type":"text","text":"### Обновить цены в корзине","x":-280,"y":-780,"width":352,"height":60},
 		{"id":"5ec352148fdcf726","type":"text","text":"### Ничего","x":760,"y":-780,"width":250,"height":60},
-		{"id":"4f0a01f74395d10d","x":-980,"y":380,"width":400,"height":120,"type":"text","text":""}
+		{"id":"4f0a01f74395d10d","x":-980,"y":380,"width":220,"height":60,"type":"text","text":"Оформление заказа"}
 	],
 	"edges":[
 		{"id":"4f074eb25550c9f8","fromNode":"e47e0ea6986c628c","fromSide":"left","toNode":"c77cb201f4b5ca99","toSide":"top","label":"Кешбэк не используется для оплаты"},
