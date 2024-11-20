@@ -7,13 +7,14 @@
 		{"id":"c77cb201f4b5ca99","type":"text","text":"Поставщик","x":360,"y":630,"width":250,"height":60},
 		{"id":"4f388c52ec60dff6","type":"text","text":"Настройки Кешбэка за покупку","x":360,"y":780,"width":250,"height":59},
 		{"id":"dadcc3a48e76c18c","type":"text","text":"Снижение цены в заказе","x":680,"y":630,"width":250,"height":60},
-		{"id":"61d44e27e8abe010","x":460,"y":-220,"width":355,"height":60,"type":"text","text":"## Товары в корзине\n"},
-		{"id":"dd1a743848c9da09","x":-160,"y":-370,"width":380,"height":70,"type":"text","text":"## Дата обновление корзины"},
-		{"id":"e8cc37d3688c5629","x":460,"y":-370,"width":355,"height":70,"type":"text","text":"## Дата обновления товара"},
-		{"id":"91dfe8eef0b4dd3d","x":-160,"y":-220,"width":380,"height":60,"type":"text","text":"## Получение корзины\n"},
-		{"id":"dc9207bce314f646","x":220,"y":-500,"width":260,"height":60,"type":"text","text":"## Сравнение дат"},
-		{"id":"beb31653cf17ce01","x":-280,"y":-780,"width":352,"height":60,"type":"text","text":"### Обновить цены в корзине"},
-		{"id":"5ec352148fdcf726","x":760,"y":-780,"width":250,"height":60,"type":"text","text":"### Ничего"}
+		{"id":"61d44e27e8abe010","type":"text","text":"## Товары в корзине\n","x":460,"y":-220,"width":355,"height":60},
+		{"id":"dd1a743848c9da09","type":"text","text":"## Дата обновление корзины","x":-160,"y":-370,"width":380,"height":70},
+		{"id":"e8cc37d3688c5629","type":"text","text":"## Дата обновления товара","x":460,"y":-370,"width":355,"height":70},
+		{"id":"91dfe8eef0b4dd3d","type":"text","text":"## Получение корзины\n","x":-160,"y":-220,"width":380,"height":60},
+		{"id":"dc9207bce314f646","type":"text","text":"## Сравнение дат","x":220,"y":-500,"width":260,"height":60},
+		{"id":"beb31653cf17ce01","type":"text","text":"### Обновить цены в корзине","x":-280,"y":-780,"width":352,"height":60},
+		{"id":"5ec352148fdcf726","type":"text","text":"### Ничего","x":760,"y":-780,"width":250,"height":60},
+		{"id":"4f0a01f74395d10d","x":-980,"y":380,"width":400,"height":120,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"4f074eb25550c9f8","fromNode":"e47e0ea6986c628c","fromSide":"left","toNode":"c77cb201f4b5ca99","toSide":"top","label":"Кешбэк не используется для оплаты"},
