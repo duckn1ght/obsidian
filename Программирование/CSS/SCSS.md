@@ -21,11 +21,13 @@ npm i sass
 ### Примеры использования
 #### :hover и другие псевдоэлементы
 Для создания hover эффекта в SCSS используется более удобный вариант:
-```button {
+```scss
+button {
 	background-color: white;
 	color: black;
 	&:hover {
 			background-color: black;
 			color: white;
 	}
-}```
+}
+```
