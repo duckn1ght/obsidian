@@ -22,5 +22,4 @@ module.exports = router;
 const router = require("./router");
 app.use("/", router);
 ```
----
-[[Модули]] | [[Подключение MySQL]]
+
