@@ -49,4 +49,3 @@ print('Hello, {}!'.format(name))
 name = 'Eugen'
 print(f'Hello, {name}!')
 ```
----
