@@ -3,8 +3,6 @@
 npm init
 ```
 После этого в папке с проектом появиться файл **package.json**, который позволит устанавливать пакеты в проект.
-
----
 ## Path
 Для работы с путями в проекте, используется объект path из стандартной библиотеки. Пример с использованием методом **join:**
 ```jsx
@@ -53,7 +51,6 @@ console.log(path.parse(newPath))
 //     name: 'index'
 // }
 ```
----
 ## URL
 Для работы с url-адрессами используется стандартный класс URL:
 ```jsx
@@ -76,7 +73,6 @@ console.log(urlPath);
 //     searchParams: URLSearchParams {},
 // }  
 ```
----
 ## Файловая система
 Для работы с файловой системой используется библиотека fs:
 ```jsx
@@ -130,42 +126,6 @@ fs.writeFile(path.join(__dirname, 'dir1', 'dir2', 'text.txt'), 'hello txt', (err
 ```
 Функция writeFile создает или перезаписывает файл с указанным содержимым. Чтобы добавить запись в конец, используется метод **appendFile()**.
 
----
-## Promise
-
-Promise (обещание) - это объект который позволяет удобнее писать асинхронный код. Стандартная структура Promise:
-```jsx
-let promise = new Promise((resolve, reject) => {
-		if(true) resolve() // В случае успеха асинхронной операции, вызвать resolve
-		else reject() // В случае ошибки вызвать reject
-});
-
-promise
-	.then() // resolve
-	.catch() // reject
-```
-
-**resolve** - функция, которая будет вызываться при успехе операции. Функций resolve может быть несколько
-**reject** - функция, которая будет вызвана при ошибке операции. Их также может быть несколько (но зачем?)
-С помощью промиса можно удобно решить предыдущую задачу с созданием директории и файла внутри:
-```jsx
-const createFileInDirPromise = new Promise((res, rej) => {
-    let dirPath = path.join(__dirname, 'dir2') // Путь до директории
-    fs.mkdir(dirPath, (err) => { // Создание директории
-        if (err) rej(err); // В случае успеха вызывть resolve
-        else res(dirPath); // В случае ошибки вызвать reject
-    });
-});
-
-createFileInDirPromise
-		// resolve выполняет создание директории
-    .then(dirPath => { fs.writeFile(path.join(dirPath, 'file2.txt'), 
-		'text', err => (err) ? console.log(err) : null) }) 
-		// reject выводит ошибку в консоль
-    .catch(err => console.log(err)); 
-```
-
----
 [[0. ExpressJS]]
 [[0. NestJS]]
 [[Crypto]]
