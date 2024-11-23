@@ -14,10 +14,9 @@
 		{"id":"dc9207bce314f646","type":"text","text":"## Сравнение дат","x":220,"y":-500,"width":260,"height":60},
 		{"id":"beb31653cf17ce01","type":"text","text":"### Обновить цены в корзине","x":-280,"y":-780,"width":352,"height":60},
 		{"id":"5ec352148fdcf726","type":"text","text":"### Ничего","x":760,"y":-780,"width":250,"height":60},
-		{"id":"4f0a01f74395d10d","x":-980,"y":380,"width":220,"height":60,"type":"text","text":"Оформление заказа"},
-		{"id":"3422f4797701910d","x":-1027,"y":500,"width":315,"height":60,"type":"text","text":"Перебираем товары из корзины"},
-		{"id":"1abfd4e8d88373f3","x":-1037,"y":620,"width":335,"height":100,"type":"text","text":"Распределяем данные товара из корзины в массивы для заказа и для удаления"},
-		{"id":"cb82b371841af596","x":-1037,"y":800,"width":335,"height":60,"type":"text","text":""}
+		{"id":"4f0a01f74395d10d","type":"text","text":"Оформление заказа","x":-980,"y":380,"width":220,"height":60},
+		{"id":"1ed62b6dc67c1508","x":-995,"y":600,"width":250,"height":60,"type":"text","text":"Баллы используются?"},
+		{"id":"3b6dc24646bd5365","x":-1267,"y":886,"width":250,"height":60,"type":"text","text":"Вычитаем баллы из Счета, сохраняем "}
 	],
 	"edges":[
 		{"id":"4f074eb25550c9f8","fromNode":"e47e0ea6986c628c","fromSide":"left","toNode":"c77cb201f4b5ca99","toSide":"top","label":"Кешбэк не используется для оплаты"},
@@ -35,8 +34,7 @@
 		{"id":"976ffc16de47c417","fromNode":"e8cc37d3688c5629","fromSide":"top","toNode":"dc9207bce314f646","toSide":"right"},
 		{"id":"d423569e82b06e14","fromNode":"dc9207bce314f646","fromSide":"top","toNode":"5ec352148fdcf726","toSide":"bottom","label":"Обновление корзины позже товара"},
 		{"id":"f0ebd448c02c0348","fromNode":"dc9207bce314f646","fromSide":"top","toNode":"beb31653cf17ce01","toSide":"bottom","label":"Обновление товара позже коризны"},
-		{"id":"a4cadc882f0df34d","fromNode":"4f0a01f74395d10d","fromSide":"bottom","toNode":"3422f4797701910d","toSide":"top"},
-		{"id":"be2555a93aebbd2e","fromNode":"3422f4797701910d","fromSide":"bottom","toNode":"1abfd4e8d88373f3","toSide":"top"},
-		{"id":"378f75400ac78922","fromNode":"1abfd4e8d88373f3","fromSide":"bottom","toNode":"cb82b371841af596","toSide":"top"}
+		{"id":"1b4ce3eae6170982","fromNode":"4f0a01f74395d10d","fromSide":"bottom","toNode":"1ed62b6dc67c1508","toSide":"top"},
+		{"id":"af54975a832cf715","fromNode":"1ed62b6dc67c1508","fromSide":"bottom","toNode":"3b6dc24646bd5365","toSide":"top","label":"Да"}
 	]
 }
