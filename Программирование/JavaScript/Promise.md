@@ -17,8 +17,8 @@ promise
 const createFileInDirPromise = new Promise((res, rej) => {
     let dirPath = path.join(__dirname, 'dir2') // Путь до директории
     fs.mkdir(dirPath, (err) => { // Создание директории
-        if (err) rej(err); // В случае успеха вызывть resolve
-        else res(dirPath); // В случае ошибки вызвать reject
+        if (err) rej(err); // В случае ошибки вызвать reject
+        else res(dirPath); // В случае успеха вызывть resolve
     });
 });
 
