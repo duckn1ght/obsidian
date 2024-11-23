@@ -11,7 +11,8 @@ SCSS отличается от SASS только синтаксисом.
 npm i sass
 ```
 И добавить в package.json скрипт для компиляции scss в css:
-```    "scripts": {
+``` json    
+"scripts": {
         "style": "sass -w src/scss/:src/css/"
     },```
 Где src/scss это относительный путь до папки с scss файлами, а src/css это относительный путь, где будет создана папка с файлами css.
