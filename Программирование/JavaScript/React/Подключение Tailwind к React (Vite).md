@@ -28,6 +28,3 @@ export default {
 @tailwind utilities;
 ```
 
----
-[[Создание проекта React с помощью Vite]] | [[3. Маршрутизация React Router]]
-
