@@ -33,8 +33,6 @@ module.exports = {
     sqlize: sqlize,
 }
 ```
-
----
 ## Модель
 Для того, чтобы хранить данные, нужно создать модель данных. По сути, модель данных является таблицей в БД. В папке db создадим файл Users.js:
 ```jsx
@@ -91,8 +89,6 @@ module.exports = {
     users: Users
 }
 ```
-
----
 ## Запросы
 
 Для добавления запросов к Users создадим файл Controller.js в /db/Users:
@@ -198,4 +194,4 @@ module.exports = function routes(app) {
     });
 }
 ```
-[[Подключение MySQL]]
+
