@@ -16,7 +16,11 @@
 		{"id":"5ec352148fdcf726","type":"text","text":"### Ничего","x":760,"y":-780,"width":250,"height":60},
 		{"id":"4f0a01f74395d10d","type":"text","text":"Оформление заказа","x":-980,"y":380,"width":220,"height":60},
 		{"id":"1ed62b6dc67c1508","x":-995,"y":600,"width":250,"height":60,"type":"text","text":"Баллы используются?"},
-		{"id":"3b6dc24646bd5365","x":-1267,"y":886,"width":250,"height":114,"type":"text","text":"Вычитаем баллы из счета и сохраняем их сумму в заказе"}
+		{"id":"cc2b75ebceb8ed86","x":-995,"y":1213,"width":250,"height":67,"type":"text","text":"Заказ принят или отменен?"},
+		{"id":"3b6dc24646bd5365","x":-1245,"y":886,"width":250,"height":114,"type":"text","text":"Вычесть баллы из счета и сохранить их сумму в заказе"},
+		{"id":"84ffb5c8f737421b","x":-745,"y":884,"width":250,"height":119,"type":"text","text":"Сохранить сумму начисляемых бонусов внутри заказа"},
+		{"id":"b812676fb18ca7c7","x":-1260,"y":1479,"width":250,"height":101,"type":"text","text":"Начисление: Создаем транзакцию начисления с сохраненной суммой"},
+		{"id":"9e84a62ebd93733f","x":-769,"y":1458,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"4f074eb25550c9f8","fromNode":"e47e0ea6986c628c","fromSide":"left","toNode":"c77cb201f4b5ca99","toSide":"top","label":"Кешбэк не используется для оплаты"},
@@ -35,6 +39,11 @@
 		{"id":"d423569e82b06e14","fromNode":"dc9207bce314f646","fromSide":"top","toNode":"5ec352148fdcf726","toSide":"bottom","label":"Обновление корзины позже товара"},
 		{"id":"f0ebd448c02c0348","fromNode":"dc9207bce314f646","fromSide":"top","toNode":"beb31653cf17ce01","toSide":"bottom","label":"Обновление товара позже коризны"},
 		{"id":"1b4ce3eae6170982","fromNode":"4f0a01f74395d10d","fromSide":"bottom","toNode":"1ed62b6dc67c1508","toSide":"top"},
-		{"id":"af54975a832cf715","fromNode":"1ed62b6dc67c1508","fromSide":"bottom","toNode":"3b6dc24646bd5365","toSide":"top","label":"Да"}
+		{"id":"af54975a832cf715","fromNode":"1ed62b6dc67c1508","fromSide":"bottom","toNode":"3b6dc24646bd5365","toSide":"top","label":"Да"},
+		{"id":"1c91cdc327a6f6f1","fromNode":"1ed62b6dc67c1508","fromSide":"bottom","toNode":"84ffb5c8f737421b","toSide":"top","label":"Нет"},
+		{"id":"a5040369023b4e2a","fromNode":"84ffb5c8f737421b","fromSide":"bottom","toNode":"cc2b75ebceb8ed86","toSide":"top"},
+		{"id":"b26a432aa8292116","fromNode":"3b6dc24646bd5365","fromSide":"bottom","toNode":"cc2b75ebceb8ed86","toSide":"top"},
+		{"id":"7b2f6703e20c5362","fromNode":"cc2b75ebceb8ed86","fromSide":"bottom","toNode":"b812676fb18ca7c7","toSide":"top","label":"Принят"},
+		{"id":"a11b8b3200c32eec","fromNode":"cc2b75ebceb8ed86","fromSide":"bottom","toNode":"9e84a62ebd93733f","toSide":"top","label":"Отменен"}
 	]
 }
