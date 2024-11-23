@@ -1,6 +1,6 @@
 Для реализации маршрутизации (навигации) в веб-приложении на React, лучше использовать ***React Router***.
 1) Установим React Router:
-```
+```bash
 yarn add react-router-dom
 ```
 2) Создадим 2 компонента: ___HomePage.tsx___ и ___AuthPage.tsx___, и перепишем ___App.tsx____:
