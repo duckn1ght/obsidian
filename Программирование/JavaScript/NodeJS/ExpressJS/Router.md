@@ -23,4 +23,4 @@ const router = require("./router");
 app.use("/", router);
 ```
 ---
-[[1. Модули]] | [[3. Подключение MySQL]]
+[[Модули]] | [[Подключение MySQL]]

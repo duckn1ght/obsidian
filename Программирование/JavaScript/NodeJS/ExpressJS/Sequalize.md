@@ -198,4 +198,4 @@ module.exports = function routes(app) {
     });
 }
 ```
-[[3. Подключение MySQL]]
+[[Подключение MySQL]]

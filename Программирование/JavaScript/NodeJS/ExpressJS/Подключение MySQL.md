@@ -64,4 +64,4 @@ getAll();
 ]
 ```
 ---
-[[2. Router]] | [[4. Sequalize]]
+[[Router]] | [[Sequalize]]
