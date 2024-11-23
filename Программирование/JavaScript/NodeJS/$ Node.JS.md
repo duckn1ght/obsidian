@@ -1,3 +1,11 @@
+## Содержание:
+[[$ ExpressJS]]
+[[$ NestJS]]
+[[Crypto]]
+[[ejs]]
+
+---
+## Введение
 Чтобы инициализировать проект на nodejs необходимо ввести команду
 ```bash
 npm init
@@ -125,8 +133,3 @@ fs.writeFile(path.join(__dirname, 'dir1', 'dir2', 'text.txt'), 'hello txt', (err
 })
 ```
 Функция writeFile создает или перезаписывает файл с указанным содержимым. Чтобы добавить запись в конец, используется метод **appendFile()**.
-
-[[$ ExpressJS]]
-[[$ NestJS]]
-[[Crypto]]
-[[ejs]]
