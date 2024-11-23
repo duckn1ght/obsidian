@@ -127,6 +127,6 @@ fs.writeFile(path.join(__dirname, 'dir1', 'dir2', 'text.txt'), 'hello txt', (err
 Функция writeFile создает или перезаписывает файл с указанным содержимым. Чтобы добавить запись в конец, используется метод **appendFile()**.
 
 [[$ ExpressJS]]
-[[0. NestJS]]
+[[$ NestJS]]
 [[Crypto]]
 [[ejs]]
