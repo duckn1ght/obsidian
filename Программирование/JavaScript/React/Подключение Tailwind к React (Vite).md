@@ -28,3 +28,4 @@ export default {
 @tailwind utilities;
 ```
 
+# Подключение шрифтов в Tailwind
