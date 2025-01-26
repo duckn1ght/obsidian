@@ -4,5 +4,5 @@
 [[Базовая работа React]]
 [[Создание компонента]]
 [[Подключение Tailwind к React (Vite)]]
-[[useState()]]
+[[Состояние]]
 [[React Router]]
