@@ -1,6 +1,6 @@
 ---
 
-kanban-plugin: board
+kanban-plugin: list
 
 ---
 
@@ -24,10 +24,14 @@ kanban-plugin: board
 
 
 
+***
 
+## Архивировать
+
+- [x] Переписать алгоритм
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false],"show-checkboxes":true}
+{"kanban-plugin":"list","list-collapse":[false,false,false,false,false],"show-checkboxes":true}
 ```
 %%
