@@ -1,10 +1,10 @@
 Для подключения Tailwind к React (VIte) необходимо:
 1) Установить библиотеки:
-```
+```node
 yarn add -D tailwindcss postcss autoprefixer
 ```
 2) Инициализировать tailwind в проекте, после чего будет создан файл __tailwind.config.js__:
-```
+```js
 npx tailwindcss init -p
 ```
 3) Заполнить список файлов в __tailwind.config.js__, который будет использовать tailwind: 
@@ -27,7 +27,6 @@ export default {
 @tailwind components;
 @tailwind utilities;
 ```
-
 # Подключение шрифтов в Tailwind
 Чтобы использовать кастомные шрифты, достаточно подключить их в index.css и добавить в tailwind.config.js:
 1. index.css:
