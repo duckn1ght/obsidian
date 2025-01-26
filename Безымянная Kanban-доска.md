@@ -4,26 +4,6 @@ kanban-plugin: list
 
 ---
 
-## В ожидании
-
-
-
-## В процессе
-
-
-
-## На удержании
-
-
-
-## Завершено
-
-
-
-## Отменено
-
-
-
 ***
 
 ## Архивировать
@@ -32,6 +12,6 @@ kanban-plugin: list
 
 %% kanban:settings
 ```
-{"kanban-plugin":"list","list-collapse":[false,false,false,false,false],"show-checkboxes":true}
+{"kanban-plugin":"list","list-collapse":[],"show-checkboxes":true}
 ```
 %%
