@@ -29,3 +29,35 @@ export default {
 ```
 
 # Подключение шрифтов в Tailwind
+Чтобы использовать кастомные шрифты, достаточно подключить их в index.css и добавить в tailwind.config.js:
+1. index.css:
+```css
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+2. tailwind.confing.js:
+```css
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx}"
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+      // Указываем название, которое будет носить шрифт и семейство подключенного шрифта
+        fs: ['"Nunito Sans"'] // Двойные ковычки нужны для название с пробелами
+      }
+    },
+  },
+  plugins: [],
+}
+
+```
+После этого можно использовать класс
+```css
+className='font-[название переменной шрифта]
+```
