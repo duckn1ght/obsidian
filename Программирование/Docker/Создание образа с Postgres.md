@@ -1,8 +1,8 @@
 Для этого необходимо создать docker-compose.yaml следующего типа:
 ```yaml
 services:
-	postgres:
-		image: postgres:latest
+    postgres:
+        image: postgres:latest
 		env_file:
 			- .env
 		ports:
