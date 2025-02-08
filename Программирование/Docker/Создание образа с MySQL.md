@@ -1,12 +1,12 @@
 Для этого необходимо создать docker-compose.yaml следующего типа:
-```js
+```yaml
 services:
-    mysql:
-        image: mysql:latest
-        env_file:
-            - .env
-        ports:
-            - '3306:3306'
+    mysql:
+        image: mysql:latest
+        env_file:
+            - .env
+        ports:
+            - '3306:3306'
 ```
 А внутри .env файла указать следующие параметры:
 ```js
