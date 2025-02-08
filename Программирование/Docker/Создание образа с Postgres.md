@@ -1,5 +1,5 @@
 Для этого необходимо создать docker-compose.yaml следующего типа:
-```js
+```yaml
 services:
     postgres:
         image: postgres:latest
