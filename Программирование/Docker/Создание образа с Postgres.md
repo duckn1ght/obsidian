@@ -14,10 +14,10 @@ services:
 services:
   postgres:
     image: postgres 
-      environment: 
-        POSTGRES_USER: your_user 
-        POSTGRES_PASSWORD: your_password 
-      ports: - "5432:5432"
+    environment: 
+      POSTGRES_USER: your_user 
+      POSTGRES_PASSWORD: your_password 
+    ports: - "5432:5432"
 ```
 Но лучше создать .env файл:
 ```js
