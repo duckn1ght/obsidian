@@ -25,7 +25,7 @@ services:
 POSTGRES_DB = my_test_db
 POSTGRES_USER = root
 POSTGRES_PASSWORD = qwerty
-POSTGRES_HOST = 127.0.0.2
+POSTGRES_HOST = 127.0.0.1
 POSTGRES_PORT = 5432
 ```
 После этого команда `docker-compose up` создаст образ с Postgres.
