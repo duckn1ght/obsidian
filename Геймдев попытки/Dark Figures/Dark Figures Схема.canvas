@@ -7,7 +7,8 @@
 		{"id":"6026b41726552fef","x":1680,"y":-840,"width":440,"height":140,"type":"text","text":"# Концовка \"Это ведь Нуар\"\nГлавные герои умирают"},
 		{"id":"6333fe9db17d2fba","type":"text","text":"# Сюжет\n\n\n\n\n>**Вдохновение:** \n>Молчание Ягнят\n>Револьвер (фильм)","x":-20,"y":-320,"width":403,"height":460},
 		{"id":"73619987ae444417","x":68,"y":300,"width":228,"height":65,"type":"text","text":"# Персонажи\n"},
-		{"id":"3732471b25673f36","type":"text","text":"# Брайан Ротт\nЧеловек с заболеванием мозга, который не смог справится со своими страхами.","x":520,"y":520,"width":322,"height":160}
+		{"id":"3732471b25673f36","type":"text","text":"# Брайан Ротт\nЧеловек с заболеванием мозга, который не смог справится со своими страхами.","x":520,"y":520,"width":322,"height":160},
+		{"id":"36636418222f0738","x":-280,"y":560,"width":250,"height":300,"type":"text","text":"# ---\nГениальная "}
 	],
 	"edges":[
 		{"id":"7856d29713079571","fromNode":"4da61142d1517be6","fromSide":"left","toNode":"c4bbf52ddb19c6f3","toSide":"right"},
@@ -15,6 +16,7 @@
 		{"id":"39920eaf3ec647cb","fromNode":"c4bbf52ddb19c6f3","fromSide":"left","toNode":"57aca0d2b6cb9776","toSide":"right"},
 		{"id":"fe204d85e2de6686","fromNode":"4da61142d1517be6","fromSide":"top","toNode":"a89b952d3189b593","toSide":"bottom"},
 		{"id":"2cc389d32eb7564a","fromNode":"6333fe9db17d2fba","fromSide":"bottom","toNode":"73619987ae444417","toSide":"top"},
-		{"id":"6abdb5fab826cd5c","fromNode":"73619987ae444417","fromSide":"right","toNode":"3732471b25673f36","toSide":"top"}
+		{"id":"6abdb5fab826cd5c","fromNode":"73619987ae444417","fromSide":"right","toNode":"3732471b25673f36","toSide":"top"},
+		{"id":"325a6870abfd2704","fromNode":"73619987ae444417","fromSide":"left","toNode":"36636418222f0738","toSide":"top"}
 	]
 }
