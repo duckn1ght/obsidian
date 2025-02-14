@@ -2,10 +2,12 @@
 	"nodes":[
 		{"id":"c4bbf52ddb19c6f3","x":-1203,"y":-320,"width":403,"height":460,"type":"text","text":"# Графический стиль"},
 		{"id":"4da61142d1517be6","type":"text","text":"# Краткое описание\nDark Figures\nНуарный детектив в рисованном стиле.\n\n\n","x":-600,"y":-320,"width":541,"height":460},
-		{"id":"6333fe9db17d2fba","type":"text","text":"# Сюжет","x":140,"y":-320,"width":403,"height":460}
+		{"id":"6333fe9db17d2fba","type":"text","text":"# Сюжет","x":140,"y":-320,"width":403,"height":460},
+		{"id":"3732471b25673f36","x":780,"y":-320,"width":322,"height":460,"type":"text","text":"# Брайан Ротт"}
 	],
 	"edges":[
 		{"id":"7856d29713079571","fromNode":"4da61142d1517be6","fromSide":"left","toNode":"c4bbf52ddb19c6f3","toSide":"right"},
-		{"id":"954f99b7409a49d8","fromNode":"4da61142d1517be6","fromSide":"right","toNode":"6333fe9db17d2fba","toSide":"left"}
+		{"id":"954f99b7409a49d8","fromNode":"4da61142d1517be6","fromSide":"right","toNode":"6333fe9db17d2fba","toSide":"left"},
+		{"id":"d0c5d3c1873b7d13","fromNode":"6333fe9db17d2fba","fromSide":"right","toNode":"3732471b25673f36","toSide":"left"}
 	]
 }
